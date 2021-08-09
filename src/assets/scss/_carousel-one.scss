@@ -1,0 +1,32 @@
+.carousel {
+  margin: 30px 0;
+  .carousel-inner {
+    margin: auto;
+    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    .carousel-item {
+      img {
+        height: 70vh;
+      }
+    }
+  }
+  a.carousel-control-prev {
+    display: none;
+  }
+  a.carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators {
+    bottom: -60px;
+    li {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      background-color: transparent;
+    }
+    li.active {
+      background-color: #fff;
+    }
+  }
+}
